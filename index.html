@@ -11,36 +11,83 @@
 </head>
 
 <body>
+    <!-------------------------------------------------------------NAVBAR----------------------------------------------------------------->
     <section class="hero_sec">
         <div class="nav_color">
             <nav class="navbar">
                 <div class="logo">
-                    <a href="#"><img class="main_img" src="assets/logo.png" alt="logo"></a>
+                    <a href="#"><img class="main_img" src="./assets/logo.png" alt="logo"></a>
                 </div>
 
                 <div class="menu">
-                    <div class="btn home"><a href="#">
-                            Home
-                        </a></div>
-                    <div class="btn about"><a href="#">
-                            About
-                        </a></div>
-                    <div class="btn academics"><a href="#">
-                            Academics
-                        </a></div>
-                    <div class="btn team"><a href="#">
-                            Our Team
-                        </a></div>
-                    <div class="btn gallery"><a href="#">
-                            Gallery
-                        </a></div>
-                    <div class="btn downloads"><a href="#">
-                            Downloads
-                        </a></div>
-                    <div class="btn contact"><a href="#">
-                            Contact Us
-                        </a></div>
-                    <!------------------- SIDE BAR ------------------------------------------------------------------------------------------------------------->
+                    <div class="dropdown">
+                        <button class="dropbtn">Home</i></button>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">About <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">About GEC Surat</a>
+                            <a href="#">Placement Cell</a>
+                            <a href="#">Greviance Cell</a>
+                            <a href="#">Anti Ragging Cell</a>
+                            <a href="#">SSIP</a>
+                            <a href="#">RTI</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Academics <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">BE/ME courses</a>
+                            <a href="#">Academic Calander</a>
+                            <a href="#">Affilition/Accredation</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Departments <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content  response">
+                            <a href="#">Computer Engineering</a>
+                            <a href="#">Electronics & Communication Engineeering</a>
+                            <a href="#">Electrical Engineering</a>
+                            <a href="#">Mechanical Engineering</a>
+                            <a href="#">Civil Engineering</a>
+                            <a href="#">Environmental Engineering</a>
+                            <a href="#">Applied Science & Humanities Department</a>
+                        </div>
+                    </div>
+
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Placement & Training <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Placement</a>
+                            <a href="#">Finishing School</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Other Blocks and Facilities <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Administrative Block</a>
+                            <a href="#">Aminities Block</a>
+                            <a href="#">Workshop</a>
+                            <a href="#">Library</a>
+                            <a href="#">Hostel</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Contact Us</i></button>
+                    </div>
+
+                    <!--------------------------------------------------------------SIDE BAR ----------------------------------------------------------------->
 
                     <div class="nav-header side-nav">
                         <i class="fa fa-bars"></i>
@@ -48,15 +95,72 @@
                     <div class="sidebar ">
                         <ul class="nav-links">
                             <div class="sidebar-logo">
-                                <a href="#"><img src="assets/logo.png" alt="logo"></a>
+                                <a href="#"><img src="./assets/logo.png" alt="logo"></a>
                             </div>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Academics</a></li>
-                            <li><a href="">Our Team</a></li>
-                            <li><a href="">Gallery</a></li>
-                            <li><a href="">Downloads</a></li>
-                            <li><a href="">Contact Us</a></li>
+
+                            <button class="dropdown-btn">Home
+                            </button>
+
+
+                            <button class="dropdown-btn">About
+                                <i class="fa fa-caret-down"> </i>
+                            </button>
+                            <div class="dropdown-container">
+                                <a href="#">About GEC Surat</a>
+                                <a href="#">Placement Cell</a>
+                                <a href="#">Greviance Cell</a>
+                                <a href="#">Anti Ragging Cell</a>
+                                <a href="#">SSIP</a>
+                                <a href="#">RTI</a>
+                            </div>
+
+
+                            <button class="dropdown-btn">Academics
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container">
+                                <a href="#">BE/ME courses</a>
+                                <a href="#">Academic Calander</a>
+                                <a href="#">Affilition/Accredation</a>
+                            </div>
+                            
+                            
+                            <button class="dropdown-btn">Departments
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container dep">
+                                <a href="#">Computer Engineering</a>
+                                <a href="#">Electrical Engineering</a>
+                                <a href="#">Mechanical Engineering</a>
+                                <a href="#">Civil Engineering</a>
+                                <a href="#">Environmental Engineering</a>
+                                <a href="#">Applied Science & Humanities Department</a>
+                                <a href="#">Electronics & Communication Engineeering</a>
+                            </div>
+
+                            
+                            <button class="dropdown-btn">Placement & Training
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container">
+                                <a href="#">Placement</a>
+                                <a href="#">Finishing School</a>
+                            </div>
+
+                            
+                            <button class="dropdown-btn">Other Blocks and Facilities
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container">
+                                <a href="#">Administrative Block</a>
+                            <a href="#">Aminities Block</a>
+                            <a href="#">Workshop</a>
+                            <a href="#">Library</a>
+                            <a href="#">Hostel</a>
+                            </div>
+
+                            <button class="dropdown-btn">Contact Us
+                            </button>
                         </ul>
 
                         <ul class="social-links">
@@ -66,11 +170,17 @@
                             <li><a href=""><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
-                    <!------------------- SIDE BAR ------------------------------------------------------------------------------------------------------------->
                 </div>
             </nav>
         </div>
 
+        <!-- -------------------------------------------NEWS AND CAMPUS VIDEO---------------------------------------------------------------- -->
+        <div class="video">
+            <video loop autoplay muted class="back-video" id="back-video">
+                <source src="./assets/back-video.mp4">
+                </source>
+            </video>
+        </div>
         <div id="parallex">
             <div class="content">
                 <h1>Explore DGGEC, Surat - Gateway to Knowledge</h1>
@@ -79,6 +189,7 @@
             </div>
         </div>
     </section>
+
 
     <div class="both">
         <div class="square">
@@ -107,10 +218,11 @@
         </div>
     </div>
 
+    <!-- ---------------------------------------------PRINCIPAL SIR'S MESSAGE---------------------------------------------------------------- -->
     <div class="p-box">
         <div class="card">
             <div class="photo">
-                <img src="assets/image.webp">
+                <img src="./assets/image.webp">
             </div>
             <div class="quote">
                 <h2>From the Principal's Desk</h2>
@@ -136,7 +248,7 @@
             <h2 class="heading">Campus Tour</h2>
         </div>
     </div>
-
+    <!-- -------------------------------------------DEPARTMENTS---------------------------------------------------------------- -->
     <div class="departments">
         <h2 class="heading">Explore Our Departments</h2>
         <div class="grid">
@@ -151,6 +263,7 @@
             <div class="cell">9</div>
         </div>
     </div>
+    <!-- -------------------------------------------FOOTER---------------------------------------------------------------- -->
 
     <footer class="footer">
         <div class="box">
@@ -186,7 +299,7 @@
 
 
     <script src="script.js"></script>
-    <script src="side_bar.js"></script>
+    <script src="side_bar.js"></script> 
 </body>
 
 </html>

@@ -1,9 +1,4 @@
-const parallax = document.getElementById("parallex");
 
-window.addEventListener("scroll", function(){
-    let offset = window.pageYOffset ;
-    parallax.style.backgroundPositionY = offset * 0.7 + "px";
-})
 
 document.addEventListener('DOMContentLoaded', function () {
     const newsData = [
@@ -34,3 +29,22 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+
+
+// For dropdown menu in side bar
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+        } else {
+            dropdownContent.style.display = "block";
+        }
+    });
+}
