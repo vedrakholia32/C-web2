@@ -175,7 +175,7 @@ ul.social-links li a {
     position: absolute;
     z-index: -1;
     top: 0;
-    background-image: url("./assets/admin_edited.JPG");
+    background-image: url("assets/admin_edited.JPG");
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -340,7 +340,7 @@ ul.social-links li a {
     color: var(--lightfont);
     height: 70vh;
     width: 100%;
-    background-image: url("./assets/p_background.jpg");
+    background-image: url("assets/p_background.jpg");
     background-size: cover;
     background-attachment: fixed;
     display: flex;
